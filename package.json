@@ -1,0 +1,25 @@
+{
+  "name": "auralo-performance-testing",
+  "version": "1.0.0",
+  "description": "Performance testing suite for Auralo sneaker product page",
+  "main": "performance-test.js",
+  "scripts": {
+    "test": "node performance-test.js",
+    "test:performance": "node performance-test.js",
+    "install-deps": "npm install playwright",
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "performance",
+    "testing",
+    "web-vitals",
+    "pagespeed",
+    "optimization"
+  ],
+  "author": "Claude Code",
+  "license": "MIT"
+}
