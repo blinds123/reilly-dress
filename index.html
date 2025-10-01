@@ -857,19 +857,27 @@ const LazyLoader = {
 
   // Load secondary content progressively
   loadSecondaryContent() {
-    // Schedule remaining content for after interaction or 1 second
-    const scheduleContent = () => {
-      requestIdleCallback(() => this.loadRemainingContent());
-    };
+    // iOS Safari fix: Load immediately on mobile instead of waiting for scroll
+    const isMobile = window.innerWidth <= 768;
+    const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
 
-    // Load on scroll or after 1 second
-    const onScroll = () => {
-      scheduleContent();
-      window.removeEventListener('scroll', onScroll);
-    };
+    if (isMobile || isIOS) {
+      // Load immediately on mobile to prevent "page ends" feeling
+      setTimeout(() => this.loadRemainingContent(), 100);
+    } else {
+      // Desktop: use progressive loading
+      const scheduleContent = () => {
+        requestIdleCallback(() => this.loadRemainingContent());
+      };
 
-    window.addEventListener('scroll', onScroll, { passive: true });
-    setTimeout(scheduleContent, 1000);
+      const onScroll = () => {
+        scheduleContent();
+        window.removeEventListener('scroll', onScroll);
+      };
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      setTimeout(scheduleContent, 1000);
+    }
   },
 
   // Load remaining page content - ALL CONTENT PRESERVED
