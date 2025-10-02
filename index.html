@@ -1294,8 +1294,8 @@ function initScrollingTestimonials() {
   const container = document.getElementById('scrollingTestimonials');
   if (!container) return;
 
-  // Duplicate testimonials for infinite scroll effect
-  const allTestimonials = [...testimonials, ...testimonials];
+  // Duplicate testimonials 3x for smooth infinite scroll
+  const allTestimonials = [...testimonials, ...testimonials, ...testimonials];
 
   container.innerHTML = allTestimonials.map(t => `
     <div style="flex-shrink:0;background:#fff;border-radius:8px;padding:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);width:140px">
@@ -1309,6 +1309,24 @@ function initScrollingTestimonials() {
       <div style="font-size:10px;color:#666;line-height:1.4">${t.text}</div>
     </div>
   `).join('');
+
+  // iOS Safari: Use JavaScript animation (CSS animation doesn't work reliably)
+  let scrollPosition = 0;
+  const scrollSpeed = 0.5;
+
+  function animateScroll() {
+    scrollPosition += scrollSpeed;
+    const containerWidth = container.scrollWidth / 3;
+    if (scrollPosition >= containerWidth) scrollPosition = 0;
+
+    container.style.transform = `translateX(-${scrollPosition}px)`;
+    container.style.webkitTransform = `translateX(-${scrollPosition}px)`;
+    requestAnimationFrame(animateScroll);
+  }
+
+  container.style.animation = 'none';
+  container.style.webkitAnimation = 'none';
+  requestAnimationFrame(animateScroll);
 }
 
 // Dynamic Social Proof Updates
