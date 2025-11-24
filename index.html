@@ -528,12 +528,18 @@ async function getExchangeFromPool(amountUSD) {
     const originalText = btn ? btn.textContent : '';
     if (btn) btn.textContent = 'Creating your exchange...';
 
-    // Request exchange from pool
+    // Request exchange from pool with 15 second timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
+
     const response = await fetch(`${SIMPLESWAP_POOL_API}/buy-now`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ amountUSD: amountUSD })
+      body: JSON.stringify({ amountUSD: amountUSD }),
+      signal: controller.signal
     });
+
+    clearTimeout(timeoutId);
 
     const data = await response.json();
     console.log('[POOL] Response:', data);
@@ -548,9 +554,13 @@ async function getExchangeFromPool(amountUSD) {
     }
   } catch (error) {
     console.error('[POOL] Exchange creation error:', error);
-    alert('Payment processing error. Please try again.');
+    if (error.name === 'AbortError') {
+      alert('Request timeout. The server is taking too long to respond. Please try again.');
+    } else {
+      alert('Payment processing error. Please try again.');
+    }
     const btn = document.querySelector('[onclick*="handleAddToCart"]');
-    if (btn) btn.textContent = 'COMPLETE PURCHASE';
+    if (btn) btn.textContent = 'ADD TO CART - $69';
   }
 }
 
