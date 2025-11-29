@@ -1,0 +1,11 @@
+{
+  "pool_url": "https://simpleswap-automation-1.onrender.com",
+  "pool_19": 0,
+  "pool_29": 10,
+  "pool_59": 0,
+  "total": 10,
+  "health": "ok",
+  "initialized": false,
+  "status": "complete",
+  "notes": "Pool initialization failed - $19 and $59 tiers have 0 exchanges. $29 tier has adequate exchanges (10). Health endpoint is responsive but pool cannot auto-initialize new exchanges."
+}

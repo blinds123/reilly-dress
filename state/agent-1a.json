@@ -1,0 +1,29 @@
+{
+  "product_count": 4,
+  "testimonial_count": 18,
+  "images_processed": [
+    "images/product/product-01.jpeg",
+    "images/product/product-02.jpeg",
+    "images/product/product-03.jpeg",
+    "images/product/product-04.jpeg",
+    "images/testimonials/testimonial-01.jpeg",
+    "images/testimonials/testimonial-02.jpeg",
+    "images/testimonials/testimonial-03.jpeg",
+    "images/testimonials/testimonial-04.jpeg",
+    "images/testimonials/testimonial-05.jpeg",
+    "images/testimonials/testimonial-06.jpeg",
+    "images/testimonials/testimonial-07.jpeg",
+    "images/testimonials/testimonial-08.jpeg",
+    "images/testimonials/testimonial-09.jpeg",
+    "images/testimonials/testimonial-10.jpeg",
+    "images/testimonials/testimonial-11.jpeg",
+    "images/testimonials/testimonial-12.jpeg",
+    "images/testimonials/testimonial-13.jpeg",
+    "images/testimonials/testimonial-14.jpeg",
+    "images/testimonials/testimonial-15.jpeg",
+    "images/testimonials/testimonial-16.jpeg",
+    "images/testimonials/testimonial-17.jpeg",
+    "images/testimonials/testimonial-18.jpeg"
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,273 @@
+{
+  "tagline": "The dress TikTok can't stop talking about - now at pre-order prices",
+  "headlines": {
+    "main": "Meet The Viral Reilly Dress Everyone's Obsessed With",
+    "sub": "Effortlessly elegant, endlessly versatile - from brunch to date night in one timeless piece",
+    "urgency": "Pre-Order NOW: Save $40 Before This Viral Dress Sells Out Again",
+    "social_proof": "Join 10,000+ Women Who Made This Their Wardrobe Essential"
+  },
+  "product_copy": {
+    "features": [
+      "Ultra-flattering A-line silhouette that complements every body type with a feminine, flowing fit",
+      "Premium breathable fabric blend keeps you comfortable from morning coffee to evening events",
+      "Versatile design transitions seamlessly - dress it up with heels or down with sneakers",
+      "Thoughtful details including adjustable tie waist, pockets, and the perfect midi length"
+    ],
+    "care": "Machine wash cold, gentle cycle. Hang dry or tumble dry low. Cool iron if needed. Do not bleach.",
+    "sizing": "Runs true to size. Between sizes? Size up for a relaxed fit or down for a more tailored look. Model is 5'7\" wearing size S."
+  },
+  "testimonials": [
+    {
+      "name": "Sarah M.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "literally obsessed!! wore it to brunch and got SO many compliments. the fabric is chef's kiss and it has pockets hello???",
+      "date": "2 days ago",
+      "img": 1
+    },
+    {
+      "name": "Emma K.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "ok so i saw this on my fyp and ordered immediately. best impulse purchase ever. feels expensive but its literally $19 rn",
+      "date": "5 days ago",
+      "img": 3
+    },
+    {
+      "name": "Jessica L.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "stop scrolling and just buy it!!! wore it on a first date and he said i looked stunning. dress did all the work tbh",
+      "date": "1 week ago",
+      "img": 7
+    },
+    {
+      "name": "Madison R.",
+      "platform": "tiktok",
+      "rating": 4,
+      "text": "super cute and comfy! only thing is i wish it came in more colors but the quality is amazing for the price",
+      "date": "3 days ago",
+      "img": 12
+    },
+    {
+      "name": "Taylor B.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "bought 2 bc i knew id live in this. perfect for texas heat and still looks put together. size up if u want it flowy",
+      "date": "4 days ago",
+      "img": 5
+    },
+    {
+      "name": "Brooklyn S.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "my new favorite dress hands down. wore it to a wedding and ppl thought it was designer lol",
+      "date": "1 week ago",
+      "img": 9
+    },
+    {
+      "name": "Olivia H.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the hype is REAL. this dress makes me feel like that girl. also the tie waist is so flatering im crying",
+      "date": "6 days ago",
+      "img": 14
+    },
+    {
+      "name": "Ava T.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "came in 3 days!! fits perfectly and the fabric doesnt wrinkle. packed it for vacation and its my go-to",
+      "date": "2 days ago",
+      "img": 2
+    },
+    {
+      "name": "Chloe D.",
+      "platform": "tiktok",
+      "rating": 4,
+      "text": "really pretty dress! the length is perfect for me at 5'6. would give 5 stars but shipping took a bit longer than expected",
+      "date": "1 week ago",
+      "img": 16
+    },
+    {
+      "name": "Sophia W.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "tiktok made me buy it and zero regrets. ive worn it 4 times already and always get asked where its from",
+      "date": "5 days ago",
+      "img": 11
+    },
+    {
+      "name": "Zoe P.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "this dress is everything!!! comfortable enough for all day but still looks elevated. pockets are a game changer",
+      "date": "3 days ago",
+      "img": 8
+    },
+    {
+      "name": "Lily C.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "best $19 ive ever spent. feels like butter and photographs SO well. already planning my next 3 outfits around it",
+      "date": "4 days ago",
+      "img": 18
+    },
+    {
+      "name": "Isabella G.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "Absolutely in love with this dress! The fit is perfection and I've gotten endless compliments. Worth every penny and then some.",
+      "date": "3 days ago",
+      "img": 4
+    },
+    {
+      "name": "Mia F.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "This dress exceeded all my expectations. The quality is incredible and it's so versatile. Already planning to order another!",
+      "date": "1 week ago",
+      "img": 6
+    },
+    {
+      "name": "Charlotte A.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "Finally found THE dress! Flattering, comfortable, and I can dress it up or down. This is going to be my summer staple.",
+      "date": "5 days ago",
+      "img": 10
+    },
+    {
+      "name": "Amelia J.",
+      "platform": "instagram",
+      "rating": 4,
+      "text": "Beautiful dress and great quality! Fits true to size. Only minor thing is I wish the straps were slightly adjustable, but still love it.",
+      "date": "2 days ago",
+      "img": 13
+    },
+    {
+      "name": "Harper N.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "This dress is a MUST HAVE! So elegant yet effortless. I wore it to dinner last night and felt like a million bucks.",
+      "date": "6 days ago",
+      "img": 15
+    },
+    {
+      "name": "Evelyn M.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "Obsessed doesn't even cover it! The fabric drapes beautifully and the color is even prettier in person. 10/10 recommend!",
+      "date": "4 days ago",
+      "img": 17
+    },
+    {
+      "name": "Abigail R.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "Can't believe this dress is only $19 right now! Looks and feels way more expensive. Already told all my friends about it.",
+      "date": "1 week ago",
+      "img": 1
+    },
+    {
+      "name": "Emily V.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "The Reilly Dress is everything I wanted and more. Perfect length, flattering fit, and the pockets are such a nice touch!",
+      "date": "3 days ago",
+      "img": 7
+    },
+    {
+      "name": "Grace L.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "Just received my Reilly Dress and I'm thrilled! The quality is outstanding and it fits beautifully. Highly recommend to anyone looking for a versatile dress.",
+      "date": "5 days ago",
+      "img": 9
+    },
+    {
+      "name": "Victoria S.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "This dress is wonderful! Very flattering and comfortable. I'm 5'5 and the length is perfect. Great value for the price!",
+      "date": "1 week ago",
+      "img": 12
+    },
+    {
+      "name": "Scarlett H.",
+      "platform": "facebook",
+      "rating": 4,
+      "text": "Lovely dress with nice fabric quality. Fits well and looks elegant. Only reason for 4 stars is the pre-order wait time, but it was worth it!",
+      "date": "4 days ago",
+      "img": 3
+    },
+    {
+      "name": "Penelope B.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "Absolutely love this dress! It's become my go-to for everything from casual outings to nicer events. The tie waist is very flattering.",
+      "date": "2 days ago",
+      "img": 14
+    },
+    {
+      "name": "Rachel K.",
+      "platform": "trustpilot",
+      "rating": 5,
+      "text": "Exceptional quality and customer service. The Reilly Dress arrived quickly and was exactly as described. Very impressed with the attention to detail.",
+      "date": "6 days ago",
+      "img": 5
+    },
+    {
+      "name": "Amanda T.",
+      "platform": "trustpilot",
+      "rating": 5,
+      "text": "Outstanding product and great value. The dress is well-made with quality stitching and fabric. Fits true to size as advertised. Would definitely purchase from this company again.",
+      "date": "1 week ago",
+      "img": 11
+    },
+    {
+      "name": "Jennifer P.",
+      "platform": "trustpilot",
+      "rating": 4,
+      "text": "Very pleased with my purchase overall. The dress quality is excellent and the fit is flattering. Delivery was slightly delayed but customer service kept me informed throughout.",
+      "date": "3 days ago",
+      "img": 16
+    },
+    {
+      "name": "Michelle D.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Fantastic dress! The quality exceeded my expectations and the fit is perfect. Great customer experience from ordering to delivery. Highly recommend.",
+      "date": "5 days ago",
+      "img": 8
+    },
+    {
+      "name": "Lauren W.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Best online clothing purchase I've made in a long time. The Reilly Dress is beautifully made, comfortable, and versatile. Worth every penny.",
+      "date": "2 days ago",
+      "img": 2
+    },
+    {
+      "name": "Ashley C.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Excellent quality dress at an unbeatable pre-order price. Fits true to size and the fabric is breathable and comfortable. Will be ordering more!",
+      "date": "1 week ago",
+      "img": 18
+    }
+  ],
+  "order_bump": {
+    "name": "Reilly Dress Belt - Premium Vegan Leather",
+    "bullets": [
+      "Perfectly complements your Reilly Dress with an adjustable fit",
+      "Premium vegan leather in versatile gold-tone buckle finish",
+      "Instantly elevates any outfit from casual to sophisticated",
+      "Durable construction designed to last season after season"
+    ],
+    "original_price": 49,
+    "sale_price": 10
+  },
+  "status": "complete"
+}

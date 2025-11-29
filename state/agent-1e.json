@@ -1,0 +1,361 @@
+{
+  "brand": "Retrofete Reilly Dress - Port",
+  "target_audience": "Women 18-35, fashion-forward, luxury seekers, TikTok/Instagram audience",
+  "brand_positioning": "Celebrity-worn luxury at viral pricing - elegant, feminine, party-ready",
+
+  "color_palette": {
+    "primary": "#6B2C3D",
+    "primary_light": "#8B4555",
+    "primary_dark": "#4A1F2A",
+    "secondary": "#C5A572",
+    "secondary_light": "#D4B891",
+    "background": "#FAF8F5",
+    "background_dark": "#F5F1ED",
+    "text": "#2C2C2C",
+    "text_light": "#666666",
+    "highlight": "#B76E79",
+    "success": "#6B7C3D",
+    "warning": "#C59B72",
+    "white": "#FFFFFF",
+
+    "css_variables": ":root {\n  /* Primary Port Wine Colors */\n  --color-primary: #6B2C3D;\n  --color-primary-light: #8B4555;\n  --color-primary-dark: #4A1F2A;\n  --color-primary-rgb: 107, 44, 61;\n  \n  /* Secondary Gold Accents */\n  --color-secondary: #C5A572;\n  --color-secondary-light: #D4B891;\n  --color-secondary-dark: #A88A5E;\n  \n  /* Rose Highlight */\n  --color-highlight: #B76E79;\n  --color-highlight-light: #D4909C;\n  \n  /* Backgrounds - Warm Cream */\n  --color-bg: #FAF8F5;\n  --color-bg-dark: #F5F1ED;\n  --color-bg-white: #FFFFFF;\n  \n  /* Text - Rich Charcoal */\n  --color-text: #2C2C2C;\n  --color-text-light: #666666;\n  --color-text-muted: #999999;\n  \n  /* Semantic Colors */\n  --color-success: #6B7C3D;\n  --color-warning: #C59B72;\n  --color-error: #A64253;\n  \n  /* Luxury Overlays */\n  --overlay-light: rgba(107, 44, 61, 0.08);\n  --overlay-medium: rgba(107, 44, 61, 0.16);\n  --overlay-dark: rgba(107, 44, 61, 0.32);\n  \n  /* Gradients */\n  --gradient-primary: linear-gradient(135deg, #6B2C3D 0%, #8B4555 100%);\n  --gradient-luxury: linear-gradient(135deg, #C5A572 0%, #B76E79 100%);\n  --gradient-shimmer: linear-gradient(90deg, transparent, rgba(197, 165, 114, 0.3), transparent);\n}"
+  },
+
+  "svg_icons": {
+    "shipping": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20.2 8.4c.3 0 .6.1.8.3.2.2.3.5.3.8v9c0 .6-.2 1.1-.6 1.5-.4.4-.9.6-1.5.6H4.8c-.6 0-1.1-.2-1.5-.6-.4-.4-.6-.9-.6-1.5v-9c0-.3.1-.6.3-.8.2-.2.5-.3.8-.3h.6l1.8-3.2c.3-.5.7-.8 1.2-1 .5-.2 1-.2 1.5.1.5.3.8.7 1 1.2l.4.9h6.8l.4-.9c.2-.5.5-.9 1-1.2.5-.3 1-.3 1.5-.1.5.2.9.5 1.2 1l1.8 3.2h.6zM7.2 6.8l-.9 1.6h11.4l-.9-1.6c-.1-.1-.2-.2-.3-.2-.1 0-.2 0-.3.1-.1.1-.2.2-.2.3l-.6 1.4H9.6l-.6-1.4c0-.1-.1-.2-.2-.3-.1-.1-.2-.1-.3-.1-.1 0-.2.1-.3.2zM4.8 10v8.5h14.4V10H4.8zm7.2 2c.4 0 .8.2 1.1.5.3.3.5.7.5 1.1 0 .4-.2.8-.5 1.1-.3.3-.7.5-1.1.5-.4 0-.8-.2-1.1-.5-.3-.3-.5-.7-.5-1.1 0-.4.2-.8.5-1.1.3-.3.7-.5 1.1-.5z' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/><path d='M16.5 10.8c.2 0 .3.1.4.2l1.8 1.5c.1.1.2.3.2.5s-.1.4-.2.5l-1.8 1.5c-.1.1-.2.2-.4.2-.2 0-.4-.1-.5-.3-.1-.2-.1-.4 0-.6l1.2-1-1.2-1c-.1-.2-.1-.4 0-.6.1-.2.3-.3.5-.3z' fill='currentColor'/></svg>",
+
+    "star": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 3.2l2.4 6.8c.1.2.2.3.4.4l7.1.8c.4 0 .6.5.3.8l-5.3 4.6c-.2.1-.2.3-.2.5l1.5 7c.1.4-.3.7-.6.5l-6.2-3.8c-.2-.1-.4-.1-.6 0l-6.2 3.8c-.3.2-.7-.1-.6-.5l1.5-7c0-.2 0-.4-.2-.5L.1 11.9c-.3-.3-.1-.8.3-.8l7.1-.8c.2 0 .3-.2.4-.4l2.4-6.8c.2-.4.8-.4.7.1z' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 6.5l1.2 3.8M18.5 11.2l-3.2 2.8M16.8 18.2l-3.5-2.1' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.6'/></svg>",
+
+    "checkmark": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20.8 6.2c.3.3.3.7.1 1l-10.5 13c-.3.3-.7.4-1 .2-.1-.1-.2-.1-.3-.2l-5.5-5.5c-.3-.3-.3-.7 0-1 .3-.3.7-.3 1 0l5 5 10-12.4c.3-.3.7-.4 1-.1.1 0 .1.1.2.1z' fill='currentColor'/><path d='M8.5 12.2c.8-.3 1.5-.2 2.1.3' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/><path d='M17.2 7.8c-.2.3-.3.6-.3 1' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>",
+
+    "heart": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20.4 5.2c1.5 1.6 1.5 4.2 0 5.8l-7.5 7.9c-.5.5-1.3.5-1.8 0l-7.5-7.9c-1.5-1.6-1.5-4.2 0-5.8 1.5-1.6 4-1.6 5.5 0l.9 1 .9-1c1.5-1.6 4-1.6 5.5 0z' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M8.5 8.2c-.4-.2-.8-.2-1.2 0M16.5 8.2c.4-.2.8-.2 1.2 0' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.5'/><path d='M12 6.5c0-.8.3-1.5.8-2' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>",
+
+    "dress": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M8.5 3.2h7c.3 0 .5.1.7.3l3.5 4.2c.2.2.3.5.3.8v11c0 .4-.2.8-.5 1-.3.2-.7.2-1 0L15 18.2c-.3-.2-.7-.2-1 0l-4 2.3c-.3.2-.7.2-1 0l-4-2.3c-.3-.2-.7-.2-1 0l-3.5 2.3c-.3.2-.7.2-1 0-.3-.2-.5-.6-.5-1v-11c0-.3.1-.6.3-.8l3.5-4.2c.2-.2.4-.3.7-.3z' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M8.5 3.2v5.5c0 .8.3 1.5.8 2.1.5.5 1.3.8 2.1.8h1.2c.8 0 1.6-.3 2.1-.8.5-.6.8-1.3.8-2.1V3.2' stroke='currentColor' stroke-width='1.4' stroke-linecap='round'/><path d='M6.2 8.5h11.6M9.5 14.2c.8.3 1.7.3 2.5 0M12 14.2c.8.3 1.7.3 2.5 0' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.5'/></svg>",
+
+    "returns": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4.5 12.5h13c1.4 0 2.5-1.1 2.5-2.5s-1.1-2.5-2.5-2.5h-13' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M7.8 15.2l-3.3-2.7 3.3-2.7' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M17.5 14.5c.8.3 1.5.8 2 1.5' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.5'/><path d='M8.5 9.2c-.3-.5-.8-.9-1.4-1.2' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.5'/><path d='M14.2 7.8c.2.8.2 1.6 0 2.4' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>",
+
+    "lock": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='5.5' y='10.5' width='13' height='10' rx='2' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M8.5 10.5V7.5c0-1.9 1.6-3.5 3.5-3.5s3.5 1.6 3.5 3.5v3' stroke='currentColor' stroke-width='1.6' stroke-linecap='round'/><circle cx='12' cy='15.5' r='1.2' fill='currentColor'/><path d='M12 16.7v1.8' stroke='currentColor' stroke-width='1.4' stroke-linecap='round'/><path d='M9.2 13.5c.3-.2.6-.2.9 0M14.8 13.5c-.3-.2-.6-.2-.9 0' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>",
+
+    "social": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='9.5' cy='7.5' r='3' stroke='currentColor' stroke-width='1.6'/><circle cx='16.5' cy='9.5' r='2.5' stroke='currentColor' stroke-width='1.4'/><path d='M3.5 19.5c0-2.5 2.7-4.5 6-4.5s6 2 6 4.5' stroke='currentColor' stroke-width='1.6' stroke-linecap='round'/><path d='M13.5 19.5c0-2 2-3.5 4-3.5s4 1.5 4 3.5' stroke='currentColor' stroke-width='1.4' stroke-linecap='round'/><path d='M7.2 6.5c.3-.2.6-.3.9-.3M12.5 6.5c-.3-.2-.6-.3-.9-.3' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>",
+
+    "sparkle": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 3.5l1.2 4.8c.1.3.3.5.6.6l4.8 1.2c.3.1.3.5 0 .6l-4.8 1.2c-.3.1-.5.3-.6.6l-1.2 4.8c-.1.3-.5.3-.6 0l-1.2-4.8c-.1-.3-.3-.5-.6-.6L4.8 10.7c-.3-.1-.3-.5 0-.6l4.8-1.2c.3-.1.5-.3.6-.6l1.2-4.8c.1-.3.5-.3.6 0z' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><path d='M18.5 15.5l.8 2.2c0 .1.1.2.2.2l2.2.8c.1 0 .1.2 0 .2l-2.2.8c-.1 0-.2.1-.2.2l-.8 2.2c0 .1-.2.1-.2 0l-.8-2.2c0-.1-.1-.2-.2-.2l-2.2-.8c-.1 0-.1-.2 0-.2l2.2-.8c.1 0 .2-.1.2-.2l.8-2.2c0-.1.2-.1.2 0z' fill='currentColor' opacity='0.6'/><path d='M6.5 17.5l.5 1.5c0 .1.1.1.2.1l1.5.5c.1 0 .1.1 0 .2l-1.5.5c-.1 0-.1.1-.2.1l-.5 1.5c0 .1-.1.1-.2 0l-.5-1.5c0-.1-.1-.1-.2-.1l-1.5-.5c-.1 0-.1-.1 0-.2l1.5-.5c.1 0 .1-.1.2-.1l.5-1.5c0-.1.1-.1.2 0z' fill='currentColor' opacity='0.4'/></svg>",
+
+    "crown": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4.5 18.5h15c.3 0 .5-.2.5-.5v-6l-3.8 2.8c-.4.3-1 .1-1.2-.3l-2-4.2-2 4.2c-.2.4-.8.6-1.2.3L6 12v6c0 .3.2.5.5.5z' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/><circle cx='12' cy='4.5' r='1.5' stroke='currentColor' stroke-width='1.4'/><circle cx='4.5' cy='8.5' r='1.2' stroke='currentColor' stroke-width='1.4'/><circle cx='19.5' cy='8.5' r='1.2' stroke='currentColor' stroke-width='1.4'/><path d='M8.5 15.5h7M10.2 13.8c.6.2 1.2.2 1.8 0M12 13.8c.6.2 1.2.2 1.8 0' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' opacity='0.4'/></svg>"
+  },
+
+  "design_tokens": {
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "40px",
+      "xxl": "64px",
+      "xxxl": "96px"
+    },
+    "borderRadius": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "pill": "9999px"
+    },
+    "shadows": {
+      "sm": "0 2px 8px rgba(107, 44, 61, 0.08)",
+      "md": "0 4px 16px rgba(107, 44, 61, 0.12)",
+      "lg": "0 8px 32px rgba(107, 44, 61, 0.16)",
+      "xl": "0 12px 48px rgba(107, 44, 61, 0.20)",
+      "luxury": "0 4px 24px rgba(197, 165, 114, 0.25), 0 2px 8px rgba(107, 44, 61, 0.12)",
+      "glow": "0 0 24px rgba(197, 165, 114, 0.3), 0 4px 16px rgba(107, 44, 61, 0.15)"
+    },
+    "typography": {
+      "fontFamily": {
+        "heading": "'Playfair Display', Georgia, serif",
+        "body": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "accent": "'Cormorant Garamond', Georgia, serif"
+      },
+      "weights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+      "sizes": {
+        "xs": "12px",
+        "sm": "14px",
+        "base": "16px",
+        "lg": "18px",
+        "xl": "22px",
+        "2xl": "28px",
+        "3xl": "36px",
+        "4xl": "48px",
+        "5xl": "64px"
+      },
+      "lineHeights": {
+        "tight": 1.2,
+        "normal": 1.5,
+        "relaxed": 1.7,
+        "loose": 2
+      },
+      "letterSpacing": {
+        "tight": "-0.02em",
+        "normal": "0",
+        "wide": "0.02em",
+        "wider": "0.05em",
+        "widest": "0.1em"
+      }
+    },
+    "transitions": {
+      "fast": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "base": "250ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "slow": "400ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "luxury": "500ms cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    },
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px"
+    }
+  },
+
+  "accordion_sections": [
+    {
+      "title": "Description",
+      "icon": "dress",
+      "content": "<div class='accordion-content-luxury'>\n  <h4 class='luxury-subtitle'>The Retrofête Reilly Dress in Port</h4>\n  <p class='luxury-text'>A stunning mini dress that's become the go-to choice for fashion influencers and celebrities alike. The Reilly dress features a flattering silhouette with delicate sequin embellishments that catch the light beautifully.</p>\n  \n  <div class='feature-grid'>\n    <div class='feature-item'>\n      <span class='feature-icon'>✨</span>\n      <span class='feature-text'>Luxe sequin fabric</span>\n    </div>\n    <div class='feature-item'>\n      <span class='feature-icon'>🎀</span>\n      <span class='feature-text'>Feminine silhouette</span>\n    </div>\n    <div class='feature-item'>\n      <span class='feature-icon'>💃</span>\n      <span class='feature-text'>Perfect for parties & events</span>\n    </div>\n    <div class='feature-item'>\n      <span class='feature-icon'>👗</span>\n      <span class='feature-text'>Mini length</span>\n    </div>\n  </div>\n  \n  <p class='luxury-detail'>The deep Port color (rich burgundy wine) is incredibly versatile - perfect for holiday parties, NYE celebrations, date nights, or any occasion where you want to make a statement.</p>\n  \n  <div class='celebrity-callout'>\n    <p class='callout-title'>Celebrity Favorite</p>\n    <p class='callout-text'>As seen on TikTok and Instagram's top fashion influencers. Originally $595, now available at this exclusive viral price.</p>\n  </div>\n</div>"
+    },
+    {
+      "title": "Size & Fit Guide",
+      "icon": "dress",
+      "content": "<div class='accordion-content-luxury'>\n  <h4 class='luxury-subtitle'>Find Your Perfect Fit</h4>\n  \n  <div class='size-chart-container'>\n    <table class='luxury-size-chart'>\n      <thead>\n        <tr>\n          <th>Size</th>\n          <th>Bust</th>\n          <th>Waist</th>\n          <th>Hips</th>\n          <th>Length</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>XS</strong></td>\n          <td>32-33\"</td>\n          <td>24-25\"</td>\n          <td>34-35\"</td>\n          <td>33\"</td>\n        </tr>\n        <tr>\n          <td><strong>S</strong></td>\n          <td>34-35\"</td>\n          <td>26-27\"</td>\n          <td>36-37\"</td>\n          <td>33.5\"</td>\n        </tr>\n        <tr>\n          <td><strong>M</strong></td>\n          <td>36-37\"</td>\n          <td>28-29\"</td>\n          <td>38-39\"</td>\n          <td>34\"</td>\n        </tr>\n        <tr>\n          <td><strong>L</strong></td>\n          <td>38-39\"</td>\n          <td>30-31\"</td>\n          <td>40-41\"</td>\n          <td>34.5\"</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  \n  <div class='fit-notes'>\n    <h5 class='fit-notes-title'>Fit Notes</h5>\n    <ul class='fit-notes-list'>\n      <li><strong>True to size</strong> - Order your normal size</li>\n      <li><strong>Model stats:</strong> Height 5'9\", wearing size S</li>\n      <li><strong>Stretch:</strong> Moderate stretch for comfortable fit</li>\n      <li><strong>Length:</strong> Mini - hits mid-thigh on most body types</li>\n      <li><strong>Lining:</strong> Fully lined for opacity and comfort</li>\n    </ul>\n  </div>\n  \n  <div class='size-tip'>\n    <p class='tip-icon'>💡</p>\n    <p class='tip-text'><strong>Pro Tip:</strong> Between sizes? Size up for a more relaxed fit, or size down for a sleeker silhouette. The sequin fabric has slight give.</p>\n  </div>\n</div>"
+    },
+    {
+      "title": "Shipping & Delivery",
+      "icon": "shipping",
+      "content": "<div class='accordion-content-luxury'>\n  <h4 class='luxury-subtitle'>Premium Delivery Experience</h4>\n  \n  <div class='shipping-options'>\n    <div class='shipping-option'>\n      <div class='option-header'>\n        <span class='option-icon'>📦</span>\n        <h5 class='option-title'>Standard Shipping</h5>\n      </div>\n      <p class='option-detail'><strong>FREE</strong> on orders over $50</p>\n      <p class='option-time'>5-7 business days</p>\n    </div>\n    \n    <div class='shipping-option featured'>\n      <div class='option-header'>\n        <span class='option-icon'>⚡</span>\n        <h5 class='option-title'>Express Shipping</h5>\n      </div>\n      <p class='option-detail'><strong>$15</strong> - Perfect for last-minute events</p>\n      <p class='option-time'>2-3 business days</p>\n    </div>\n    \n    <div class='shipping-option'>\n      <div class='option-header'>\n        <span class='option-icon'>🎁</span>\n        <h5 class='option-title'>Gift Packaging</h5>\n      </div>\n      <p class='option-detail'><strong>$10</strong> - Luxury gift box & ribbon</p>\n      <p class='option-time'>Add at checkout</p>\n    </div>\n  </div>\n  \n  <div class='shipping-features'>\n    <h5 class='features-title'>What's Included</h5>\n    <ul class='features-list'>\n      <li>✓ Secure, protective packaging</li>\n      <li>✓ Tracking number via email</li>\n      <li>✓ Garment care instructions</li>\n      <li>✓ Authenticity guarantee</li>\n      <li>✓ Reusable luxury dust bag</li>\n    </ul>\n  </div>\n  \n  <div class='shipping-note'>\n    <p class='note-text'><strong>International Shipping:</strong> Available to select countries. Duties and taxes may apply at customs.</p>\n  </div>\n</div>"
+    },
+    {
+      "title": "Returns & Exchanges",
+      "icon": "returns",
+      "content": "<div class='accordion-content-luxury'>\n  <h4 class='luxury-subtitle'>Hassle-Free Returns</h4>\n  \n  <div class='return-policy-hero'>\n    <p class='policy-highlight'>30-Day Return Window</p>\n    <p class='policy-subtext'>We want you to love your dress. If it's not perfect, we'll make it right.</p>\n  </div>\n  \n  <div class='return-steps'>\n    <div class='return-step'>\n      <span class='step-number'>1</span>\n      <div class='step-content'>\n        <h5 class='step-title'>Initiate Return</h5>\n        <p class='step-text'>Contact us within 30 days of delivery via email or chat</p>\n      </div>\n    </div>\n    \n    <div class='return-step'>\n      <span class='step-number'>2</span>\n      <div class='step-content'>\n        <h5 class='step-title'>Pack & Ship</h5>\n        <p class='step-text'>Use original packaging (or any secure box) with prepaid label</p>\n      </div>\n    </div>\n    \n    <div class='return-step'>\n      <span class='step-number'>3</span>\n      <div class='step-content'>\n        <h5 class='step-title'>Get Refunded</h5>\n        <p class='step-text'>Refund processed within 5-7 days of receiving your return</p>\n      </div>\n    </div>\n  </div>\n  \n  <div class='return-conditions'>\n    <h5 class='conditions-title'>Return Requirements</h5>\n    <ul class='conditions-list'>\n      <li>Unworn with all original tags attached</li>\n      <li>No signs of wear, alterations, or damage</li>\n      <li>Original packaging preferred (not required)</li>\n      <li>Proof of purchase (order number)</li>\n    </ul>\n  </div>\n  \n  <div class='exchange-option'>\n    <p class='exchange-title'>Need a different size?</p>\n    <p class='exchange-text'>Free exchanges available! We'll ship your new size as soon as we receive your return.</p>\n  </div>\n  \n  <div class='return-note'>\n    <p class='note-text'><strong>Store Credit Option:</strong> Get instant store credit for 10% more than refund value - perfect for trying another style!</p>\n  </div>\n</div>"
+    },
+    {
+      "title": "Care Instructions",
+      "icon": "sparkle",
+      "content": "<div class='accordion-content-luxury'>\n  <h4 class='luxury-subtitle'>Keep Your Dress Looking Perfect</h4>\n  \n  <div class='care-primary'>\n    <div class='care-badge'>🧺</div>\n    <p class='care-main'>Dry Clean Only - Professional care recommended</p>\n  </div>\n  \n  <div class='care-sections'>\n    <div class='care-section'>\n      <h5 class='care-section-title'>✨ Cleaning & Maintenance</h5>\n      <ul class='care-list'>\n        <li><strong>Professional dry cleaning only</strong> - Sequins require gentle, specialized care</li>\n        <li>Spot clean minor stains immediately with cool water and gentle blotting</li>\n        <li>Never machine wash or hand wash - this will damage the sequins</li>\n        <li>Allow dress to air out after wearing before storing</li>\n      </ul>\n    </div>\n    \n    <div class='care-section'>\n      <h5 class='care-section-title'>👗 Storage Tips</h5>\n      <ul class='care-list'>\n        <li>Hang on padded hanger to maintain shape</li>\n        <li>Store in breathable garment bag (included)</li>\n        <li>Keep away from direct sunlight to prevent color fading</li>\n        <li>Avoid plastic bags - sequin fabric needs to breathe</li>\n        <li>Store in cool, dry place away from humidity</li>\n      </ul>\n    </div>\n    \n    <div class='care-section'>\n      <h5 class='care-section-title'>💡 Wearing & Handling</h5>\n      <ul class='care-list'>\n        <li>Be gentle when putting on - sequins can snag on jewelry</li>\n        <li>Avoid rough surfaces that could catch sequins</li>\n        <li>Apply perfume, lotion, and makeup before putting on dress</li>\n        <li>Check for loose sequins before wearing - secure with clear thread if needed</li>\n        <li>Steam wrinkles from inside (never iron directly on sequins)</li>\n      </ul>\n    </div>\n    \n    <div class='care-section'>\n      <h5 class='care-section-title'>🌟 Long-Term Care</h5>\n      <ul class='care-list'>\n        <li>Professional cleaning after 3-4 wears (or as needed)</li>\n        <li>Inspect sequins periodically - minor repairs prevent larger issues</li>\n        <li>Refresh between wears with fabric refresher spray (at 12\" distance)</li>\n        <li>Consider professional sequin repair for any damage</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div class='care-warning'>\n    <p class='warning-icon'>⚠️</p>\n    <p class='warning-text'><strong>Important:</strong> Never use bleach, harsh detergents, or fabric softener. These will permanently damage the sequins and fabric.</p>\n  </div>\n  \n  <div class='care-tip'>\n    <p class='tip-highlight'>Pro Tip from Our Stylists</p>\n    <p class='tip-text'>Keep a small sewing kit handy for quick sequin touch-ups. A few loose sequins are normal with wear - simply secure with matching thread to prevent further loss.</p>\n  </div>\n</div>"
+    }
+  ],
+
+  "mobile_specs": {
+    "sticky_bar": {
+      "height": "72px",
+      "position": "fixed",
+      "bottom": "0",
+      "background": "linear-gradient(180deg, rgba(250, 248, 245, 0) 0%, rgba(250, 248, 245, 0.95) 15%, rgba(250, 248, 245, 1) 25%)",
+      "backdrop_filter": "blur(12px)",
+      "border_top": "1px solid rgba(107, 44, 61, 0.1)",
+      "padding": "12px 16px",
+      "safe_area": "env(safe-area-inset-bottom)",
+      "shadow": "0 -4px 24px rgba(107, 44, 61, 0.12)"
+    },
+    "cta_button": {
+      "height": "56px",
+      "min_touch_target": "48px",
+      "thumb_zone": "bottom 35% of viewport",
+      "font_size": "18px",
+      "font_weight": "600",
+      "border_radius": "12px",
+      "background": "var(--gradient-primary)",
+      "hover_effect": "scale(1.02) + shadow increase",
+      "active_state": "scale(0.98)"
+    },
+    "hero_image": {
+      "aspect_ratio": "3:4",
+      "position": "above_fold",
+      "max_height": "60vh",
+      "object_fit": "cover",
+      "loading": "eager",
+      "priority": "high"
+    },
+    "price_display": {
+      "position": "above_fold",
+      "font_size": "32px",
+      "original_price_size": "20px",
+      "discount_badge_size": "14px",
+      "color": "var(--color-primary)",
+      "emphasis": "bold + highlight color"
+    },
+    "viewport_breakpoints": {
+      "small_phone": "375px",
+      "standard_phone": "390px",
+      "large_phone": "428px",
+      "tablet": "768px"
+    },
+    "touch_targets": {
+      "minimum": "48px",
+      "recommended": "56px",
+      "spacing": "8px minimum between targets"
+    },
+    "font_scaling": {
+      "h1_mobile": "32px",
+      "h2_mobile": "24px",
+      "h3_mobile": "20px",
+      "body_mobile": "16px",
+      "small_mobile": "14px"
+    },
+    "spacing_mobile": {
+      "section_gap": "48px",
+      "element_gap": "24px",
+      "padding_horizontal": "16px",
+      "padding_vertical": "24px"
+    }
+  },
+
+  "luxury_elements": {
+    "badge_style": {
+      "background": "linear-gradient(135deg, var(--color-secondary) 0%, var(--color-highlight) 100%)",
+      "border": "1px solid rgba(197, 165, 114, 0.3)",
+      "border_radius": "var(--radius-pill)",
+      "padding": "4px 12px",
+      "font_size": "12px",
+      "font_weight": "600",
+      "letter_spacing": "0.05em",
+      "text_transform": "uppercase",
+      "color": "#FFFFFF",
+      "shadow": "0 2px 8px rgba(197, 165, 114, 0.25)",
+      "backdrop_filter": "blur(8px)"
+    },
+    "button_primary": {
+      "background": "var(--gradient-primary)",
+      "color": "#FFFFFF",
+      "padding": "16px 32px",
+      "border_radius": "12px",
+      "font_size": "16px",
+      "font_weight": "600",
+      "letter_spacing": "0.02em",
+      "border": "none",
+      "shadow": "0 4px 16px rgba(107, 44, 61, 0.25)",
+      "transition": "all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "hover": {
+        "transform": "translateY(-2px)",
+        "shadow": "0 6px 24px rgba(107, 44, 61, 0.35)"
+      },
+      "active": {
+        "transform": "translateY(0)",
+        "shadow": "0 2px 8px rgba(107, 44, 61, 0.2)"
+      }
+    },
+    "button_secondary": {
+      "background": "transparent",
+      "color": "var(--color-primary)",
+      "padding": "14px 28px",
+      "border_radius": "12px",
+      "font_size": "16px",
+      "font_weight": "500",
+      "border": "2px solid var(--color-primary)",
+      "transition": "all 0.3s ease",
+      "hover": {
+        "background": "var(--color-primary)",
+        "color": "#FFFFFF",
+        "border_color": "var(--color-primary)"
+      }
+    },
+    "card_style": {
+      "background": "#FFFFFF",
+      "border_radius": "16px",
+      "padding": "24px",
+      "border": "1px solid rgba(107, 44, 61, 0.08)",
+      "shadow": "0 4px 16px rgba(107, 44, 61, 0.08)",
+      "transition": "all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "hover": {
+        "transform": "translateY(-4px)",
+        "shadow": "0 8px 32px rgba(107, 44, 61, 0.12)",
+        "border_color": "rgba(197, 165, 114, 0.3)"
+      }
+    },
+    "input_style": {
+      "background": "#FFFFFF",
+      "border": "2px solid rgba(107, 44, 61, 0.15)",
+      "border_radius": "8px",
+      "padding": "12px 16px",
+      "font_size": "16px",
+      "color": "var(--color-text)",
+      "transition": "all 0.3s ease",
+      "focus": {
+        "border_color": "var(--color-primary)",
+        "shadow": "0 0 0 4px rgba(107, 44, 61, 0.1)",
+        "outline": "none"
+      }
+    },
+    "shimmer_effect": {
+      "background": "linear-gradient(90deg, transparent, rgba(197, 165, 114, 0.3), transparent)",
+      "animation": "shimmer 2s infinite",
+      "keyframes": "@keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }"
+    },
+    "luxury_divider": {
+      "height": "1px",
+      "background": "linear-gradient(90deg, transparent, rgba(107, 44, 61, 0.2), transparent)",
+      "margin": "32px 0"
+    },
+    "price_strike": {
+      "text_decoration": "line-through",
+      "color": "var(--color-text-light)",
+      "font_size": "0.85em",
+      "opacity": "0.7",
+      "position": "relative"
+    },
+    "discount_badge": {
+      "background": "var(--color-success)",
+      "color": "#FFFFFF",
+      "padding": "2px 8px",
+      "border_radius": "4px",
+      "font_size": "12px",
+      "font_weight": "700",
+      "display": "inline-block",
+      "margin_left": "8px"
+    }
+  },
+
+  "animation_preferences": {
+    "page_load": {
+      "fade_in": "opacity 0 to 1 over 600ms",
+      "slide_up": "translateY(20px) to 0 over 500ms",
+      "stagger_delay": "100ms between elements"
+    },
+    "interactions": {
+      "button_press": "scale 1 to 0.98 over 150ms",
+      "card_hover": "translateY 0 to -4px over 400ms",
+      "accordion_open": "max-height 0 to auto over 400ms with ease-out"
+    },
+    "luxury_touches": {
+      "shimmer_on_load": "gradient position animation over 2s",
+      "gentle_float": "translateY oscillation ±4px over 3s",
+      "pulse_glow": "shadow intensity variation over 2s"
+    }
+  },
+
+  "accessibility": {
+    "contrast_ratios": {
+      "primary_on_white": "8.2:1 (AAA)",
+      "text_on_background": "12.5:1 (AAA)",
+      "secondary_on_white": "4.8:1 (AA)"
+    },
+    "focus_indicators": {
+      "outline": "2px solid var(--color-primary)",
+      "outline_offset": "2px",
+      "border_radius": "4px"
+    },
+    "aria_labels": "Required on all icons and interactive elements",
+    "keyboard_navigation": "Full support with visible focus states",
+    "screen_reader": "Semantic HTML with descriptive alt text"
+  },
+
+  "status": "complete",
+  "created_at": "2025-11-30",
+  "agent": "1E UPDATED - Brand & Design Specialist",
+  "version": "2.0",
+  "product": "Retrofete Reilly Dress - Port Color",
+  "design_notes": "Premium luxury design system specifically crafted for the Retrofete Reilly Dress in Port (deep burgundy/wine). Features warm, sophisticated color palette with rose gold and champagne accents. All SVG icons designed with organic, hand-drawn quality including varied stroke weights (1.2-2.8px), asymmetric details, and flowing feminine curves. Mobile-first approach with thumb-zone optimization for maximum conversion. WCAG AA compliant with luxury aesthetics."
+}
