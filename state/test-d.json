@@ -1,0 +1,42 @@
+{
+  "test": "D - Pool Integration",
+  "pool_url": "https://simpleswap-automation-1.onrender.com",
+  "health_status": "ok",
+  "health_response": {
+    "status": "healthy",
+    "mode": "triple-pool",
+    "timestamp": "2025-11-29T23:59:29.277Z"
+  },
+  "pools": {
+    "19": 0,
+    "29": 10,
+    "59": 0,
+    "total": 10
+  },
+  "thresholds_met": {
+    "19_adequate": false,
+    "29_adequate": true,
+    "59_adequate": false,
+    "total_adequate": false
+  },
+  "cors_configured": true,
+  "buy_now_endpoint": "working",
+  "endpoint_test_result": {
+    "success": true,
+    "exchangeUrl": "https://simpleswap.io/exchange?id=ghgulsferr0fj5qh",
+    "poolStatus": "instant"
+  },
+  "passed": false,
+  "critical_issues": [
+    "$19 pool has 0 exchanges (target: >= 5)",
+    "$59 pool has 0 exchanges (target: >= 5)",
+    "Total pool has 10 exchanges (target: >= 20)"
+  ],
+  "passing_components": [
+    "Health endpoint returns 'healthy' status",
+    "CORS is configured and working",
+    "Buy-now endpoint is functional",
+    "$29 pool has 10 exchanges (meets >= 5 threshold)"
+  ],
+  "notes": "Pool is partially operational. Health check passes, CORS is configured, and buy-now endpoint works correctly. However, only the $29 tier has adequate exchanges (10). The $19 and $59 tiers have 0 exchanges each, and total pool count (10) is below the minimum threshold of 20. The pool needs immediate replenishment for $19 and $59 tiers to be fully operational."
+}

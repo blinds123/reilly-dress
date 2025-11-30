@@ -1,0 +1,24 @@
+{
+  "test": "A - $59 Direct Flow",
+  "url": "https://reilly-dress.netlify.app",
+  "timestamp": "2025-11-30T00:01:33.101Z",
+  "steps_completed": [
+    "Navigate to page",
+    "Selected size: S",
+    "Popup appeared after CTA click"
+  ],
+  "assertions": {
+    "page_loads": true,
+    "title_correct": true,
+    "hero_image_loads": true,
+    "size_selector_works": true,
+    "primary_cta_exists": true,
+    "popup_appears": true,
+    "decline_button_exists": true,
+    "redirect_triggers": false
+  },
+  "pool_59_count": 0,
+  "passed": false,
+  "notes": "Decline button did not trigger redirect to SimpleSwap. WARNING: $59 pool has 0 exchanges available. ",
+  "errors": []
+}

@@ -1,0 +1,62 @@
+{
+  "test": "E - Performance & Design",
+  "url": "https://reilly-dress.netlify.app",
+  "timestamp": "2025-11-30T00:00:00Z",
+  "performance": {
+    "html_size_bytes": 75211,
+    "hero_image_size_bytes": 58001,
+    "page_load_time_ms": 92,
+    "gzip_enabled": true,
+    "compression_ratio": "excellent"
+  },
+  "cache_headers": {
+    "html_no_cache": true,
+    "html_cache_control": "public,max-age=0,must-revalidate",
+    "images_cached": true,
+    "images_cache_control": "public,max-age=31536000,immutable"
+  },
+  "design_elements": {
+    "port_color_present": true,
+    "port_color_count": 2,
+    "fonts_loaded": true,
+    "playfair_font_count": 2,
+    "tiktok_pixel": true,
+    "tiktok_pixel_id": "D3CVHNBC77U2RE92M7O0",
+    "service_worker": true,
+    "service_worker_registered": true
+  },
+  "security": {
+    "https": true,
+    "http_version": "HTTP/2",
+    "hsts": true,
+    "hsts_header": "max-age=31536000; includeSubDomains; preload",
+    "content_type_options": true,
+    "x_frame_options": true,
+    "x_frame_options_value": "DENY"
+  },
+  "target_compliance": {
+    "html_size_target": "< 500KB",
+    "html_size_actual": "75KB",
+    "html_size_met": true,
+    "hero_image_target": "< 500KB",
+    "hero_image_actual": "58KB",
+    "hero_image_met": true,
+    "lcp_target": "< 2.5s",
+    "lcp_estimated": "< 0.5s",
+    "lcp_met": true
+  },
+  "scores": {
+    "performance": 10,
+    "performance_notes": "92ms load time, 75KB HTML, 58KB hero image, gzip enabled - exceptional",
+    "design_quality": 10,
+    "design_quality_notes": "All brand elements present: port wine color, Playfair fonts, TikTok pixel, service worker",
+    "security": 10,
+    "security_notes": "Full security headers: HSTS, X-Content-Type-Options, X-Frame-Options",
+    "overall": 10,
+    "overall_notes": "Perfect execution across all metrics"
+  },
+  "passed": true,
+  "critical_findings": [],
+  "recommendations": [],
+  "notes": "OUTSTANDING PERFORMANCE - All targets exceeded. 92ms total load time is exceptional. HTML at 75KB is 85% under target. Hero image at 58KB is 88% under target. All security headers present and properly configured. Cache headers optimal. Design elements fully implemented. This is production-grade premium performance."
+}
