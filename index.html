@@ -123,14 +123,17 @@
         /* Hero Section */
         .hero {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: minmax(0, 1fr);
             gap: 40px;
             padding: 40px 0;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
         }
 
         @media (min-width: 768px) {
             .hero {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
                 gap: 60px;
                 padding: 60px 0;
             }
@@ -140,6 +143,7 @@
             position: relative;
             width: 100%;
             max-width: 100%;
+            min-width: 0;
         }
 
         .main-image {
@@ -187,6 +191,7 @@
             gap: 24px;
             width: 100%;
             max-width: 100%;
+            min-width: 0;
         }
 
         .badge {
@@ -1188,6 +1193,13 @@
             .thumbnails {
                 width: 100%;
                 max-width: 100%;
+                min-width: 0;
+            }
+
+            .gallery > *,
+            .product-info > * {
+                max-width: 100%;
+                min-width: 0;
             }
 
             h1 {
